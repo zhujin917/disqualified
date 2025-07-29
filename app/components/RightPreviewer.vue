@@ -92,7 +92,6 @@ function save() {
             }
 
             .white {
-                content: "";
                 position: absolute;
                 width: 60px;
                 height: 60px;
@@ -107,6 +106,8 @@ function save() {
         main {
             flex: 1 1 0;
             padding: 26px 26px 0 26px;
+            width: calc(100% - (26px * 2));
+            overflow: hidden;
             text-align: center;
             color: white;
             display: flex;
